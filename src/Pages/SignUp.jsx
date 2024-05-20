@@ -61,9 +61,9 @@ const SignUp = () => {
                 </p>
                 <p className="text-sm">Need Help?</p>
               </div>
-              <p className="py-8">
+              <p className="py-8 flex flex-col">
                 <span className="text-gray-500 mr-2">
-                  Already subscribed to Netflix?{" "}
+                  Already subscribed to StreamScape?{" "}
                 </span>
                 <Link to="/login">Sign In</Link>
               </p>

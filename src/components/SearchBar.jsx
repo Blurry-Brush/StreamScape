@@ -22,6 +22,7 @@ const SearchBar = () => {
       >
         <button
           onClick={handleSearch}
+          type="submit"
           className="hover:scale-110 rounded-full p-1"
         >
           <FaSistrix className="search-icon" size={30} color="black" />

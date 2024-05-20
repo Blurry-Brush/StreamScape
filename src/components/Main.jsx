@@ -53,7 +53,7 @@ const Main = () => {
             alt={movie?.title}
           />
         </motion.div>
-        <AnimatePresence>
+        {/* <AnimatePresence> */}
           <motion.div
             key={index}
             variants={textVariant}
@@ -81,7 +81,7 @@ const Main = () => {
               {truncateString(movie?.overview, 150)}
             </motion.p>
           </motion.div>
-        </AnimatePresence>
+        {/* </AnimatePresence> */}
       </motion.div>
     </AnimatePresence>
   );
